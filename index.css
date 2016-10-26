@@ -1,0 +1,19 @@
+*{
+  font-family: "Tahoma";
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper{
+  background-color: lightblue;
+  width: 970px;
+  height: 750px;
+  margin: 0px auto;
+}
+  #wrapper img{
+    margin-left: 100px;
+  }
+  #wrapper button{
+    border-radius: 30px;
+  
+  }
