@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cobra Kai Image Disappear</title>
+    <meta name="jQuery Assignment" content="jQuery Assignment">
+    <link rel="stylesheet" type="text/css" href="funtimesdojo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+
+        $("img").click(function(){
+          $(this).hide();
+        });
+
+        $("#button").click(function(){
+          $("img").show();
+        });
+      });
+      </script>
+  </head>
+    <body>
+      <div id="wrapper">
+        <div id="box"><img src="CobraKai.png"></div>
+        <button id=button>RESTORE IMAGES</button>
+      </div>
+    </body>
+  </head>
+</html>
